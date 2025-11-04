@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>虚拟展厅 - 2024级外文1班第一团支部</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>2024级外文1班第一团支部活动记录</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="activities.html">活动记录</a></li>
+        <li><a href="exhibition.html" class="active">虚拟展厅</a></li>
+        <li><a href="about.html">关于我们</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="exhibition-container">
+    <div class="exhibition-image">
+      <img id="exhibit-img" src="assets/images/exhibit/IMG_5382.jpg" alt="展厅图片">
+      <button id="btn-next" class="nav-btn next">↑</button>
+      <button id="btn-back" class="nav-btn back">↓</button>
+      <button id="btn-left" class="nav-btn left">←</button>
+      <button id="btn-right" class="nav-btn right">→</button>
+      <button id="btn-gallery" class="nav-btn gallery">🖼</button>
+    </div>
+
+    <div id="gallery-overlay" class="gallery-overlay">
+    <div class="gallery-content">
+      <button id="close-gallery" class="close-gallery">×</button>
+      <div id="gallery-images" class="gallery-images"></div>
+    </div>
+    <div id="image-zoom" class="image-zoom">
+      <img id="zoomed-img" src="" alt="放大图片">
+    </div>
+  </div>
+
+  </main>
+
+  <footer>
+    <p>© 2025 2024级外文1班第一团支部 版权所有</p>
+  </footer>
+
+  <script src="assets/js/exhibition.js"></script>
+</body>
+</html>
